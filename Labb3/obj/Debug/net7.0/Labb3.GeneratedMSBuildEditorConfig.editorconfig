@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Labb3
+build_property.RootNamespace = Labb3
+build_property.ProjectDir = /Users/tyrawoden/Documents/VS/Labb3/Labb3/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/tyrawoden/Documents/VS/Labb3/Labb3
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Person/DeletePerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0RlbGV0ZVBlcnNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Person/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Person/EditPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0VkaXRQZXJzb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Person/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0ZpbHRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Person/InsertPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0luc2VydFBlcnNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Person/InsertPersonForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0luc2VydFBlcnNvbkZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Person/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL1NlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Person/SelectGenres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL1NlbGVjdEdlbnJlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Person/SelectWithDataSet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL1NlbGVjdFdpdGhEYXRhU2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Person/Sort.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL1NvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tyrawoden/Documents/VS/Labb3/Labb3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ipiyneznwg

@@ -1,0 +1,60 @@
+﻿@model Labb3.Models.PersonDetail
+
+@{
+    ViewData["Title"] = "DeletePerson";
+}
+
+<h1>DeletePerson</h1>
+
+<p>Do you want to delete this person from the database?</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FavSong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artist)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.FavSong)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Artist)
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<form asp-action="DeletePerson">
+    <div class="form-group">
+        <input type="submit" value="Yes" class="btn btn-primary" />
+    </div>
+</form>
+
+<p>
+    <a asp-action="Filter">Back to list</a>
+</p>

@@ -1,0 +1,66 @@
+﻿@model Labb3.Models.ViewModelPG
+
+@{
+    ViewData["Title"] = "Filter";
+    int i = 0;
+    if (ViewData["Genre"] != null) { i = (int)ViewData["Genre"]; }
+}
+
+<h2>Filter</h2>
+
+<div class="row">
+    <div class="form-group col-md-4">
+        <form asp-action="Filter">
+            <div class="form-group">
+                <select class="form-control" id="Genre" name="Genre" style="width:350px;">
+                    @foreach (Labb3.Models.GenreDetail gd in Model.GDList)
+                    {
+                        @if (gd.Id != i) { <option value="@gd.Id">@gd.Genre</option> }
+                        else { <option value="@gd.Id" selected>@gd.Genre</option> }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Filter" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <div class="form-group col-md-4">
+        <form asp-action="Search">
+            <input type="text" name="SearchString" class="form-control" placeholder="Search name or genre..." style="width:350px;">
+            <input type="submit" value="Search" class="btn btn-primary" />
+        </form>
+    </div>
+</div>
+
+<p>Value from drop down list: @ViewData["Genre"]</p>
+
+<br />
+<br />
+<h3>People and genres</h3>
+<p>
+    <a asp-action="InsertPersonForm">Add new person</a>
+</p>
+<table class="table">
+    <tr>
+        <th><a href="Sort?sortBy=name">Name</a></th>
+        <th><a href="Sort?sortBy=age">Age</a></th>
+        <th><a href="Sort?sortBy=genre">Likes genre</a></th>
+    </tr>
+    @if (Model.PGList != null)
+    {
+        @foreach (Labb3.Models.PersonGenres pg in Model.PGList)
+        {
+            <tr>
+                <td>@pg.Name</td>
+                <td>@pg.Age</td>
+                <td>@pg.Genre</td>
+                <td>
+                    @Html.ActionLink("Edit", "EditPerson", new { Id = pg.Id }, null) |
+                    @Html.ActionLink("Details", "Details", new { Id = pg.Id }, null) |
+                    @Html.ActionLink("Delete", "DeletePerson", new { Id = pg.Id }, null)
+                </td>
+            </tr>
+        }
+    }
+</table>
